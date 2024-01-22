@@ -1,24 +1,3 @@
-def get_first_num_value():
-    num1 = input("Enter a number: ")
-    return int(num1)
-
-def get_second_num_value():
-    num2 = input("Enter second number: ")
-    return int(num2)
-
-def calculate_addend(num1, num2):
-    print(type(num1))
-    return num1 + num2
-
-def get_operation():
-    operation = input("What operation would you like to perform \n[1] Addition\n[2] Subtraction \n>>>")
-    while operation == 1 or operation == 2:
-        operation
-    else:
-        print("Please input the number next to the operation you'd like to perform: \n")
-        operation = input("What operation would you like to perform \n[1] Addition\n[2] Subtraction \n>>>")
-    return operation
-
 def addition():
     num1 = float(input("Enter an addend: "))
 
